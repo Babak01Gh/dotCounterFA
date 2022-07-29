@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@font-face {
+  font-family: "babak";
+  src: url(Assets/Vazir-Bold.woff);
+}
+@font-face {
+  font-family: "babak2";
+  src: url(Assets/Vazir-Light.woff);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(173, 216, 230);
+}
+input {
+  width: 200px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgba(238, 194, 73, 0.933);
+  font-family: babak;
+  padding: 5px;
+}
+button {
+  height: 30px;
+  width: 70px;
+  font-family: babak;
+  background-color: rgba(91, 255, 42, 0.933);
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+}
+p {
+  margin-top: 20px;
+  font-family: babak2;
+}
